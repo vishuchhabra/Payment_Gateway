@@ -46,7 +46,7 @@ function App() {
           Learn React
         </a>
         <StripeCheckout
-          stripeKey=""
+          stripeKey="pk_test_51HMpxgA45ZcvZKqDUVyBnoJMZBOxbWhUpH4cgxNjssLHhkHksiKPMlJIP76cbUE0NfHYVtZlb7mDKQfbtFa4NMuP00MDs9BKEN"
           token={makePayment}
           name="Buy React"
           amount={product.price * 100}
